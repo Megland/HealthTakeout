@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_gray_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.jyl.healthytakeout.widget.section.SectionView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_major">
+
+            <com.jyl.healthytakeout.widget.section.SectionTextItemView
+                android:id="@+id/btn_trend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                app:siv_icon="@drawable/ic_trend"
+                app:siv_indicator="true"
+                app:siv_name="@string/label_trend" />
+
+            <com.jyl.healthytakeout.widget.section.SectionTextItemView
+                android:id="@+id/btn_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="onClick"
+                app:siv_icon="@drawable/ic_message"
+                app:siv_indicator="true"
+                app:siv_name="@string/label_message" />
+        </com.jyl.healthytakeout.widget.section.SectionView>
+
+
+        <com.jyl.healthytakeout.widget.section.SectionView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.jyl.healthytakeout.widget.section.SectionTextItemView
+                android:id="@+id/btn_my_focus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:siv_icon="@drawable/ic_my_focus"
+                app:siv_indicator="true"
+                app:siv_name="@string/label_my_focus" />
+
+            <com.jyl.healthytakeout.widget.section.SectionTextItemView
+                android:id="@+id/btn_my_fans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:siv_icon="@drawable/ic_fans"
+                app:siv_indicator="true"
+                app:siv_name="@string/label_my_fans" />
+
+            <com.jyl.healthytakeout.widget.section.SectionTextItemView
+                android:id="@+id/btn_find_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:siv_icon="@drawable/ic_find_user"
+                app:siv_indicator="true"
+                app:siv_name="@string/label_find_user" />
+
+        </com.jyl.healthytakeout.widget.section.SectionView>
+
+    </LinearLayout>
+
+</LinearLayout>

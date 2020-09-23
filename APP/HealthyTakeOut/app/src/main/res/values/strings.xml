@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HealthyTakeOut</string>
+    <string name="ShoppingCartActivity_name">本店商品</string>
+    <string name="title_home">主页</string>
+    <string name="title_social">发现</string>
+    <string name="title_myinfo">我的</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="user">用户名</string>
+    <string name="passward">密码</string>
+
+    <!--注册-->
+    <string name="btn_signup">立即注册</string>
+
+    <!--编辑个人信息-->
+    <string name="btn_et_user_info">保存更改</string>
+
+    <!--我的-->
+    <string name="label_my_order">我的订单</string>
+    <string name="label_my_Info">我的信息</string>
+    <string name="label_my_evaluates">我的评价</string>
+    <string name="label_my_addresses">我的地址</string>
+    <string name="label_feedback">联系我们</string>
+    <string name="label_logout">退出此账户</string>
+    <string name="label_address_create">新增地址</string>
+
+
+    <string name="hint_edit_name">请输入您的名字</string>
+    <string name="hint_edit_phone">请输入您的手机号</string>
+    <string name="hint_edit_address_summary">请输入小区/学校/大楼等详细地址</string>
+    <string name="btn_confirm_update">确认修改</string>
+    <string name="btn_confirm_create">确认添加</string>
+    <string name="label_male">先生</string>
+    <string name="label_female">女士</string>
+    <string name="hint_edit_feedback_content">请输入反馈内容（最多200字）</string>
+    <string name="hint_edit_contact_way">请输入您的联系方式（可选）</string>
+
+    <!--发现-->
+    <string name="label_trend">动态</string>
+    <string name="label_message">留言</string>
+    <string name="label_my_focus">我的关注</string>
+    <string name="label_my_fans">我的粉丝</string>
+    <string name="label_find_user">查找用户</string>
+
+    <!--发现-->
+
+
+</resources>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_gray_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_major"
+        android:paddingLeft="@dimen/spacing_major"
+        android:paddingRight="@dimen/spacing_major"
+        android:orientation="vertical"
+        android:background="@drawable/btn_radius_all_normal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="用户名"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et1_input_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_normal"
+                android:background="@null"
+                style="@style/Widget.HealthyTakeOut.EditText"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et1_password"
+                style="@style/Widget.HealthyTakeOut.EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/cell_normal"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cell_normal"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/et_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb1_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/sel_common_check_bg"
+                    android:paddingLeft="@dimen/spacing_micro"
+                    android:text="男"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/font_normal" />
+
+                <RadioButton
+                    android:id="@+id/rb1_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_major"
+                    android:layout_marginLeft="@dimen/spacing_major"
+                    android:button="@drawable/sel_common_check_bg"
+                    android:paddingLeft="@dimen/spacing_micro"
+                    android:text="女"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/font_normal" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="年龄"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/et1_age"
+                style="@style/Widget.HealthyTakeOut.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_normal"
+                android:background="@null"
+                android:hint=""
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="身高"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/et1_height"
+                style="@style/Widget.HealthyTakeOut.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_normal"
+                android:background="@null"
+                android:hint="单位（cm）" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="体重"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/et1_weight"
+                style="@style/Widget.HealthyTakeOut.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_normal"
+                android:background="@null"
+                android:hint="单位（kg）" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et1_target_weight"
+                style="@style/Widget.HealthyTakeOut.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cell_normal"
+                android:layout_marginLeft="80dp"
+                android:background="@null"
+                android:hint="目标体重" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cell_normal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="口味喜好"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/et_preference"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb1_tian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/sel_common_check_bg"
+                    android:paddingLeft="@dimen/spacing_micro"
+                    android:text="甜"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/font_normal" />
+
+                <RadioButton
+                    android:id="@+id/rb1_suan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_major"
+                    android:layout_marginLeft="@dimen/spacing_major"
+                    android:button="@drawable/sel_common_check_bg"
+                    android:paddingLeft="@dimen/spacing_micro"
+                    android:text="酸"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/font_normal" />
+
+                <RadioButton
+                    android:id="@+id/rb1_la"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/spacing_major"
+                    android:layout_marginLeft="@dimen/spacing_major"
+                    android:button="@drawable/sel_common_check_bg"
+                    android:paddingLeft="@dimen/spacing_micro"
+                    android:text="辣"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="@dimen/font_normal" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/stroke"
+            android:background="@color/divider"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_update"
+        style="@style/Widget.HealthyTakeOut.Button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cell_normal"
+        android:layout_marginLeft="@dimen/spacing_major"
+        android:layout_marginRight="@dimen/spacing_major"
+        android:text="@string/btn_et_user_info" />
+
+</LinearLayout>

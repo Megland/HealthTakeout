@@ -1,0 +1,36 @@
+
+.mytable{
+    font-size: 12px;
+    text-align: center;
+}
+
+.content-wrapper{
+	background-color:white;
+} 
+
+.modal-body{
+    padding: 8px;
+}
+.modal-header{
+    padding: 8px;
+}
+.modal-footer{
+    padding: 8px;
+}
+.box{
+	height:100%;
+}
+.box-body {
+	height:100%
+}
+.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{
+    padding-left: 8px;
+    padding-right: 5px;
+
+}
+textarea{
+	resize: none;
+}
+input[type=checkbox] {
+    zoom:150%;
+}
