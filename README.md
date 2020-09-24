@@ -1,6 +1,6 @@
 # HealthTakeout
 本项目是一个健康外卖APP，从健康饮食的理念出发，将健康管理与外卖系统结合。
-项目主要采用Java语言开发，主要分为APP端和服务端。APP端使用Android开发技术开发；服务端用Java Web开发技术完成，使用了HTML、CSS、Bootstrap、JSP+JavaBean+Servlet模型、Ajax技术。系统使用MySQL关系型数据库储存数据，
+项目主要采用Java语言开发，主要分为APP端和服务端。APP端使用Android开发技术开发；服务端用Java Web开发技术完成，使用了HTML、CSS、Bootstrap、JSP+JavaBean+Servlet模型、Ajax技术。系统使用MySQL关系型数据库储存数据。
 
 
 ## 界面展示
